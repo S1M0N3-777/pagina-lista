@@ -1,8 +1,10 @@
- hero{
+ .hero{
     padding-top: 130px;
     padding-bottom: 120px;
-    width: 100%;
     height: 660px;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #707070 2.5px;
+    padding: 5px;
     background-color: #CEFBFF;
-    border: #707070 1px solid;
   }
