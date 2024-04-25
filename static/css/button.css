@@ -10,4 +10,17 @@
   padding: 14px 33px;
   line-height: 50px;
   margin-top: 35px;
+  position: relative;
+}
+
+.button::after { 
+  content: "";
+  background-image: url("../images/right-arrow-svgrepo-com\ 1.svg");
+  width: 28px;
+  height: 34px;
+  background-size: 28px 34px;
+  position: absolute;
+  right: 21px;
+  top: 23px;
+  transform: translate(-50%);
 }

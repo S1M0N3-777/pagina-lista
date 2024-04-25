@@ -20,12 +20,11 @@
 
 .customLink{
     color: #FF0000;
+    margin-top: 34px;
+    margin-bottom: 75px;
 }
 
 .listItemContent{
     margin-bottom: 68px;
 }
 
-.listItem a{
-    margin-top: 34px;
-}
